@@ -19,7 +19,15 @@
   background: var(--primary-clr);
   border-radius: 50px;
 }
-
+.hero-image {
+  background-image: url("background.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 body {
   position: relative;
   min-height: 100vh;
@@ -28,8 +36,6 @@ body {
   justify-content: center;
   padding-bottom: 30px;
   background-color: #e2e1dc;
-  background-image: url("background.jpg");
-  background-color: #cccccc;  
 }
 .container {
   position: relative;
