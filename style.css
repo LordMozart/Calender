@@ -538,7 +538,6 @@ body {
 }
 
 body {
-  background-color: #e2e1dc;
   background-image: url("background.jpg"); /* The image used */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
