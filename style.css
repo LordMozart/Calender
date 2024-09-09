@@ -19,15 +19,7 @@
   background: var(--primary-clr);
   border-radius: 50px;
 }
-.hero-image {
-  background-image: url("background.jpg");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
+
 body {
   position: relative;
   min-height: 100vh;
@@ -36,6 +28,12 @@ body {
   justify-content: center;
   padding-bottom: 30px;
   background-color: #e2e1dc;
+  background-image: url("background.jpg"); /* The image used */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
 }
 .container {
   position: relative;
