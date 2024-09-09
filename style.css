@@ -28,6 +28,8 @@ body {
   justify-content: center;
   padding-bottom: 30px;
   background-color: #e2e1dc;
+  background-image: url("paper.gif");
+  background-color: #cccccc;  
 }
 .container {
   position: relative;
